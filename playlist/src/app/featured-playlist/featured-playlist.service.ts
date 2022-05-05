@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { map, Observable } from 'rxjs';
 import { FeaturedPlaylists } from './featured-playlist.model';
 
-@Injectable()
+@Injectable({ providedIn: 'root' })
 export class FeaturedPlaylistService {
 
   constructor(private http: HttpClient) { }
