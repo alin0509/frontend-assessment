@@ -30,5 +30,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## TODO
 
-Improve the style on playlist items. A UX layout would have helped. Now it looks like '90 design.
-
+* Improve the style on playlist items. A UX layout would have helped. Now it looks like '90 design.
+* Fix NgRx. - get data from store
