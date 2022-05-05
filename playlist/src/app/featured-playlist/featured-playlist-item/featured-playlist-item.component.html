@@ -1,0 +1,11 @@
+<div class="app-featured-playlist-item">
+  <div class="app-featured-playlist-item-img">
+    <img [src]="item.artwork">
+  </div>
+  <div class="app-featured-playlist-item-details">
+    <span> {{ item.curator_name }}</span>
+    <span> {{ item.name }}</span>
+    <a [href]="item.url"
+       target="_blank">Listen</a>
+  </div>
+</div>

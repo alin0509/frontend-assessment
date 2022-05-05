@@ -1,0 +1,9 @@
+<ng-container *ngIf="playlist$ | async as playlist">
+
+  <h2>{{playlist.name}}</h2>
+
+  <div class="app-featured-playlist">
+    <app-featured-playlist-item *ngFor="let item of playlist.content"
+                                [item]="item"></app-featured-playlist-item>
+  </div>
+</ng-container>
