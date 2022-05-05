@@ -1,0 +1,12 @@
+:host {
+    h2 {
+        margin-left: 8px;
+    }
+
+    .app-featured-playlist {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: baseline;
+    }
+}
